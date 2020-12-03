@@ -13,7 +13,7 @@ const [results, setResults] = useState([]);
         params: {
           limit: 50,
           term: searchTerm,
-          location: "jerusalem",
+          location: "new york",
         },
       });
       setResults(response.data.businesses);
