@@ -7,7 +7,7 @@ const [results, setResults] = useState([]);
 
   const searchApi = async (searchTerm) => {
     try {
-      console.log('hi there');
+      console.log('START ' + new Date());
       
       const response = await yelp.get("/search", {
         params: {
