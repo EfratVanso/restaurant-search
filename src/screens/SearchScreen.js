@@ -23,8 +23,8 @@ const SearchScreen = () => {
         onTermSubmit={() => searchApi(term)}
       />
       {errorMessage ? <Text>{errorMessage}</Text> : null}
-      <Text>we have found {results.length} results</Text>
- {/* enable to scroll on small screens  */}
+
+      {/* enable to scroll on small screens  */}
       <ScrollView> 
         <ResultsList results={filterResultsByPrice('$')} title="Cost Effective " />
         <ResultsList results={filterResultsByPrice('$$')} title="Bit Pricier" />

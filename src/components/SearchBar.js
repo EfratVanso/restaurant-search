@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     marginHorizontal: 15,
     flexDirection: "row-reverse",
+    marginBottom:10
   },
   InputStyle: {
     flex: 1, //take most of the space in the view
