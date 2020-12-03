@@ -26,7 +26,7 @@ const SearchScreen = () => {
 
       {/* enable to scroll on small screens  */}
       <ScrollView> 
-        <ResultsList results={filterResultsByPrice('$')} title="Cost Effective " />
+        <ResultsList results={filterResultsByPrice('$')} title="Cost Effective" />
         <ResultsList results={filterResultsByPrice('$$')} title="Bit Pricier" />
         <ResultsList results={filterResultsByPrice('$$$')} title="Big Spender" />
       </ScrollView>
