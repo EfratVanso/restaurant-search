@@ -25,7 +25,7 @@ const [results, setResults] = useState([]);
   //searchApi('...') // BAD CODE!! without useEffect, it wil run again and again because the useState
   
   useEffect(() => { //run only when first rendered
-    searchApi('pasta')
+    searchApi('all')
   }, []);
 
   return [searchApi, results, errorMessage]
