@@ -7,6 +7,7 @@ export default function ResultsList({title, results}) {
         <View>
             <Text style={styles.titleStyle}>{title}</Text>
             <FlatList
+            inverted={-1}
             horizontal
             data = {results}
             keyExtractor={result => result.id}
