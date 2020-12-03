@@ -7,6 +7,7 @@ export default function ResultsList({title, results}) {
         <View style={styles.container}>
             <Text style={styles.titleStyle}>{title}</Text>
             <FlatList
+            showsHorizontalScrollIndicator={false}// hide scroll bar
             inverted={-1}
             horizontal
             data = {results}
