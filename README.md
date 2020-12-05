@@ -1,8 +1,6 @@
 # restaurant-search
 react native app to search restaurants
 
-npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
-
 ## Description
 
 appliction to search restaurants by name / reagion.
@@ -28,6 +26,7 @@ https://www.yelp.com/developers/documentation/v3
 * Clone the reposotory to you coimputer. ( or download the ZIP and extreact it)
 * download to tor phone the app: 'Expo'
 * Open the command prompt in the project folder and run: 'npm install'
+* run 'npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view'
 
 ### Executing program
 
@@ -43,10 +42,10 @@ My Site: https://efratvanso.github.io/
 
 <img style="-webkit-user-select: none;margin: auto;width: 700px;" src="https://github.com/EfratVanso/restaurant-search/blob/main/gif.gif" width="200">
 
-<br/><br/>
+<br/>
 
 <img style="-webkit-user-select: none;margin: auto;width: 700px;" src="https://raw.githubusercontent.com/EfratVanso/restaurant-search/main/img2.jpeg" width="200">
 
-<br/><br/>
+<br/>
 
 <img style="-webkit-user-select: none;margin: auto;width: 700px;" src="https://raw.githubusercontent.com/EfratVanso/restaurant-search/main/img1.jpeg" width="200">
